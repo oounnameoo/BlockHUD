@@ -1,0 +1,6 @@
+name: BlockHud
+version: '${project.version}'
+main: com.example.blockhud.BlockHudPlugin
+api-version: "26.1"
+description: "Show a top-center HUD with the targeted block, name, digging progress, and required tool"
+author: UnName
