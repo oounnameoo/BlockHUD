@@ -12,7 +12,6 @@ A lightweight Paper plugin that shows a **top-center HUD** with information abou
 |---|---|
 | **Top-center HUD** | Uses a boss bar at the top of the screen to show block info. |
 | **Block name** | Displays the translated name of the block you're targeting. |
-| **Digging bar** | Fills up as you swing at the block, showing approximate mining progress. |
 | **Required tool** | Shows whether the block needs a pickaxe, axe, shovel, hoe, shears, sword, or just your hand. |
 | **Per-player** | Each player sees their own HUD. |
 
@@ -24,9 +23,7 @@ The plugin ray-traces from the player's eyes every tick to find the block they'r
 
 1. A boss bar appears at the top center.
 2. The bar title shows the block name and required tool.
-3. The bar progress fills as the player swings at the block.
-4. The bar color changes from white → yellow → green → red as progress increases.
-5. The bar hides when looking at air or beyond 5 blocks.
+3. The bar hides when looking at air or beyond 5 blocks.
 
 ---
 
